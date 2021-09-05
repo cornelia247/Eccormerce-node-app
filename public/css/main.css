@@ -204,6 +204,16 @@ form {
   background-color: #00695c;
   color: white;
 }
+.btn.danger {
+  color: rgb(143, 2, 2);;
+  border-color: rgb(143, 2, 2);;
+}
+
+.btn.danger:hover,
+.btn.danger:active {
+  background: rgb(143, 2, 2);
+  color: white;
+}
 
 @media (min-width: 768px) {
   .main-header__nav {
