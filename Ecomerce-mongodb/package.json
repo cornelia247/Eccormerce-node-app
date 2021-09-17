@@ -8,21 +8,17 @@
     "start": "nodemon app.js",
     "start-server": "node app.js"
   },
-  "author": "Maximilian Schwarzmüller",
+  "author": "Cornelia Ekpenyong",
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^1.18.3"
-  },
-  "nodemonConfig": {
-    "ignore": [
-      "data"
-    ]
   },
   "dependencies": {
     "body-parser": "^1.18.3",
     "ejs": "^2.6.1",
     "express": "^4.16.3",
     "express-handlebars": "^3.0.0",
+    "mongodb": "^4.1.1",
     "mysql2": "^2.3.0",
     "pug": "^2.0.3",
     "sequelize": "^6.6.5"
